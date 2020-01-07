@@ -38,7 +38,11 @@
   * `exit()`
 * `pipenv install python-decouple`
 * Add config information to `settings.py` and `.env`
+from decouple import config
     
+# To make a new secret key: import random
+print(''.join([random.SystemRandom().choice('abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)') for i in range(50)]))
+
 
 ## Setting up a Virtual Environment
   
