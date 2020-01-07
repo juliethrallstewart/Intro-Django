@@ -3,6 +3,7 @@
 ## Summary
 
 * Get pipenv installed
+****Normally you’d make a repo with a README and a Python gitignore
 * Clone your repo
   * (If you cloned the Hello-Django repo, delete the file `requirements.txt`!)
 * Go to your repo root directory
@@ -14,11 +15,13 @@
 * `django-admin startapp notes`
 * `./manage.py runserver`
 * `./manage.py showmigrations`
+* to look at a migrations: ./manage.py sqlmigrate admin 0001_initial
 * `./manage.py migrate`
 * `./manage.py runserver`
 * Add model to `notes/models.py`
 * Add `'notes'` to `INSTALLED_APPS` in `djorg/settings.py`
 * `./manage.py showmigrations`
+
 * `./manage.py makemigrations`
 * `./manage.py showmigrations`
 * `./manage.py migrate`
